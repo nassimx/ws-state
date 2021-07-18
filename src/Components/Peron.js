@@ -10,9 +10,6 @@ class Person extends Component {
         },
         show: true
     };
-
-
-
     render() {
         return (
             <>
@@ -30,6 +27,4 @@ class Person extends Component {
         );
     }
 }
-
-
 export default Person;

@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Person from './Components/Peron';
 import Counter from './Components/Conteur'
-
-
 
 class App extends Component {
   state = { show: false, }
@@ -22,5 +19,4 @@ class App extends Component {
     );
   }
 }
-
 export default App;
